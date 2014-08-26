@@ -1,4 +1,4 @@
-Name:                charsetdetect
+Name:                charsetdetect-ae
 Version:             1.0
 Cabal-Version:       >= 1.6
 Category:            Text
@@ -12,8 +12,8 @@ Description:         Mozilla have developed a robust and efficient character set
 License:             LGPL
 License-File:        LICENSE
 Author:              Max Bolingbroke <batterseapower@hotmail.com>
-Maintainer:          Max Bolingbroke <batterseapower@hotmail.com>
-Homepage:            http://www.github.com/batterseapower/charsetdetect
+Maintainer:          Artyom Kazak <yom@artyom.me>
+Homepage:            http://github.com/Aelve/charsetdetect-ae
 Build-Type:          Simple
 
 Extra-Source-Files:  libcharsetdetect/README.md
@@ -58,7 +58,7 @@ Extra-Source-Files:  libcharsetdetect/charsetdetect.h
 
 Source-Repository head
   type:     git
-  location: git://github.com/batterseapower/charsetdetect.git
+  location: git://github.com/Aelve/charsetdetect-ae.git
 
 Library
         Exposed-Modules:        Codec.Text.Detect
