@@ -12,7 +12,7 @@ Description:         Mozilla have developed a robust and efficient character set
 License:             LGPL
 License-File:        LICENSE
 Author:              Max Bolingbroke <batterseapower@hotmail.com>
-Maintainer:          Artyom Kazak <yom@artyom.me>
+Maintainer:          Artyom <yom@artyom.me>
 Homepage:            http://github.com/Aelve/charsetdetect-ae
 Build-Type:          Simple
 
