@@ -4,7 +4,7 @@ Cabal-Version:       >= 1.6
 Category:            Text
 Synopsis:            Character set detection using Mozilla's Universal Character Set Detector
 Description:         Mozilla have developed a robust and efficient character set detection algorithm for
-                     use in their web browsers.  The algorithm is able to detect all of the most frequently
+                     use in their web browsers. The algorithm is able to detect all of the most frequently
                      encountered character encodings totally automatically.
                      .
                      This library wraps up their library and exposes a very simple Haskell interface to it.
