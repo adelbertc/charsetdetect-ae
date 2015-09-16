@@ -1,8 +1,6 @@
-# Build artifacts
+*#
+*~
 dist/
-*.hi
-*.o
-
-# Operating system rubbish
-.DS_Store
-Thumbs.db
+.cabal-sandbox/
+cabal.sandbox.config
+TAGS
