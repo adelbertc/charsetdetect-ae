@@ -1,25 +1,23 @@
 Name:                charsetdetect-ae
-Version:             1.0.1
+Version:             1.1
 Cabal-Version:       >= 1.6
 Category:            Text
 Synopsis:            Character set detection using Mozilla's Universal Character Set Detector
-Description:         Mozilla have developed a robust and efficient character set detection algorithm for
-                     use in their web browsers. The algorithm is able to detect all of the most frequently
-                     encountered character encodings totally automatically.
-                     .
-                     This library wraps up their library and exposes a very simple Haskell interface to it.
-                     The library is portable, and is confirmed to work on both Unix and Windows.
-                     .
-                     This library is a /maintained/ fork of charsetdetect:
-                     .
-                       * It compiles with recent version of bytestring.
-                       * It works correctly in presence of Template Haskell on GHC 7.6.
-                       * It includes new convenience functions.
+Description:
+  Mozilla have developed a robust and efficient character set detection algorithm for use in their web browsers. The algorithm is able to detect all of the most frequently encountered character encodings totally automatically.
+  .
+  This library wraps up their library and exposes a very simple Haskell interface to it. The library is portable, and is confirmed to work on both Unix and Windows.
+  .
+  This library is a /maintained/ fork of charsetdetect:
+  .
+    * It compiles with recent version of bytestring.
+    * It works correctly in presence of Template Haskell on GHC 7.6.
+    * It builds on 64-bit Windows.
 License:             LGPL
 License-File:        LICENSE
 Author:              Max Bolingbroke <batterseapower@hotmail.com>
 Maintainer:          Artyom <yom@artyom.me>
-Homepage:            http://github.com/Aelve/charsetdetect-ae
+Homepage:            http://github.com/aelve/charsetdetect-ae
 Build-Type:          Simple
 
 Extra-Source-Files:  libcharsetdetect/README.md
@@ -64,7 +62,7 @@ Extra-Source-Files:  libcharsetdetect/charsetdetect.h
 
 Source-Repository head
   type:     git
-  location: git://github.com/Aelve/charsetdetect-ae.git
+  location: git://github.com/aelve/charsetdetect-ae.git
 
 Library
         Exposed-Modules:        Codec.Text.Detect
