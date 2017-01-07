@@ -1,3 +1,7 @@
+# 1.1.0.2
+
+* Fixed compilation with GHC 8 on Windows, thanks to @RyanGlScott.
+
 # 1.1.0.1
 
 * Fixed description.
